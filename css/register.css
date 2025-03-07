@@ -1,0 +1,60 @@
+
+body {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.BKlogin {
+    background-color: rgba(0, 0, 0, 0.677);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.textLOGIN {
+    color: #ffffff;
+    font-family: 'Lilita One', cursive;
+    font-weight: 800;
+    font-size: 150px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.fontt {
+    font-weight: bold; 
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.bkUser {
+    border-radius: 25px !important;
+    border: 1px solid #ccc !important;
+    padding: 10px 15px !important;
+    font-size: 16px !important; 
+    outline: none !important; 
+    transition: 0.3s ease-in-out !important; 
+    width: 400px !important;
+    max-width: 500px !important; 
+}
+
+
+.btn-primary {
+    background-color: #7c5797 !important;
+    border-color: #7c5797 !important;
+}
+
+
+
+

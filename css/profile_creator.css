@@ -1,0 +1,148 @@
+
+body {
+    background-image: url('img/home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white; /* ใส่สีพื้นหลัง */
+    z-index: 1000; /* ทำให้ navbar อยู่ด้านบน */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ navbar */
+}
+
+.containerNavbar {
+    position: relative; /* ต้องมี parent ที่มีตำแหน่งแน่นอน */
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.Bkpost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1600px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.spaceBkevent {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    width: 1500px; 
+    height: 480px;
+    gap: 40px;
+}
+
+.Bkevent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+    height: 480px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.profile-container {
+    display: flex;
+    gap: 15px;
+    width: 280px; 
+    height: 280px;
+    margin-top: 30px;
+}
+
+
+.profile-container img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profileRD {
+    display: flex;
+    gap: 15px;
+    width: 280px; 
+    height: 280px;
+    margin-top: 30px;
+}
+
+.profileRD img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: #0b6380;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.textH3 {
+    display: flex; /* ใช้ flexbox เพื่อให้ h2 อยู่ข้างกัน */
+    justify-content: space-between; /* ให้มีระยะห่างระหว่างสอง h2 */
+    align-items: center; /* จัดกึ่งกลางแนวตั้ง */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0b6380;
+    margin-top: 30px;
+    font-weight: bold;
+    gap: 100px;
+}
+
+.profile-container {
+    display: flex;
+    gap: 15px;
+    width: 480px; 
+    height: 60px;
+    margin-top: 30px;
+}
+
+
+.profile-container img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.h3font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #0b6380  ;
+    font-size: 20px ;
+    font-weight: bold ;
+    margin: 0 ;
+}
+
+.imgpost {
+    width: 430px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden; 
+    margin-top: 5px;
+}

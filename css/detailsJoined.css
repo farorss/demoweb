@@ -1,0 +1,136 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: auto;  
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+.picture {
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.picture img {
+    width: 50px;
+    height: 55px;
+    border-radius: 50%; 
+    object-fit: cover;  
+    margin-right: 15px;
+}
+.button {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px; 
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.username {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #0d5c73; 
+}
+
+.date {
+    font-size: 14px; 
+    color: #7ba5b6; 
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-img {
+    width: 20px;
+    height: auto; 
+}
+
+.card-details{
+    margin-left: 10px;
+    width: 500px;
+}
+
+.card-img-top {
+    width: 400px;
+    display: block; 
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.card-title, .card-text {
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal; 
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 850px;            
+    height: 3px;    
+    margin-top: 0px;          
+}
+
+.button-photo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.button-photo .btn {
+    color: rgb(55, 123, 187); 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button-photo .btn:focus,
+.button-photo .btn:active {
+    color: green;
+    text-decoration: underline;
+    outline: none; 
+}
+
+.button-photo img {
+    width: 10px;
+}
+
+input.form-control:focus {
+    border-color: #ffffff; 
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    outline: none;}
+
+
+
+
+
+
+
+
+
+

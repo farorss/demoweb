@@ -1,0 +1,166 @@
+.card {
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+.picture {
+    display: flex;
+    justify-content: center; /* จัดตำแหน่งในแนวนอน */
+    align-items: center;     /* จัดตำแหน่งในแนวตั้ง */
+    width: 100%;
+    height: 100%;
+}
+
+.picture img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; 
+    object-fit: cover;   
+}
+.user-info {
+    display: flex;
+    justify-content: center;
+}
+.username {
+    display: flex;
+    justify-content: center;
+    padding : 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.line {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    width: 900px;          
+    height: 3px;             
+    background-color: rgb(193, 198, 202); 
+    margin: 0 auto;         
+    margin-bottom: 10px;
+}
+.btn-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(55, 123, 187); 
+}
+
+.btn-link.active {
+    text-decoration: underline; 
+    font-weight: bold; 
+    font-size: 18px;
+    color: rgb(99, 136, 77); 
+}
+
+.cardsEvent {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.smallPicture {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;        
+    width: 100%;
+    height: 100%;
+}
+
+.smallPicture img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; 
+    object-fit: cover;   
+    margin-bottom: 10px;
+    
+}
+
+.usernameCards {
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;         
+   padding : 15px;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+
+.lineCard {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    width: 250px;            
+    height: 3px;            
+    background-color: rgb(193, 198, 202);
+    margin: 0 auto;          
+    margin-bottom: 10px;
+
+}
+
+.small-card {
+    width: 28rem; 
+    cursor: pointer; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 90%; 
+}
+
+.h3font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #0b6380  ;
+    font-size: 30px ;
+    font-weight: bold ;
+    margin: 0 ;
+}
+
+body {
+    background-image: url("img/edit\ event.png");
+    background-size: cover;
+}
+
+/* เปลี่ยนพื้นหลังปุ่ม Dropdown เป็นสีขาว และซ่อนขอบ */
+.btn-secondary {
+    background-color: #ffffff !important;
+    border: none !important;
+    color: #000 !important;
+    padding: 5px 10px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu {
+    background-color: #ffffff !important;
+    border: none !important;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);/
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa !important;
+    
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+    color: blue !important;
+}
+
+.nav-tabs .nav-link.active {
+    border: none !important;
+    color: green !important;
+}
